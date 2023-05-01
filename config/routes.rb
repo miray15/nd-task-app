@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'tasks/index'
+  # get 'tasks/index'
 
-  resources :tasks
+  # resources :tasks
+
+  get "/tasks" => "tasks#index"
 end

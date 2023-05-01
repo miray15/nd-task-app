@@ -2,3 +2,6 @@
 <p>Find your tasks here</p>
 <hr>
  
+<% @tasks.each do |task| %>
+<p><%= task.title %></p>
+<% end %>
